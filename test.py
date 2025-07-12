@@ -4,8 +4,6 @@ import os
 import sys
 import google.generativeai as genai
 from pathlib import Path
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB1hEv88gKks5OhnV2rkjagg7vvod-kWzI"
-
 
 # --- Configuration ---
 # The script assumes it is located in the parent directory of 'LeetCode'
@@ -173,7 +171,7 @@ def main():
 
     print("\n-------------------------------------")
     print("Documentation process complete!")
-    print("Check the 'prompt.md' and 'solution.md' files inside each problem folder.")
+    print("Check the 'solution.md' files inside each problem folder.")
     print("-------------------------------------")
 
 if __name__ == "__main__":
