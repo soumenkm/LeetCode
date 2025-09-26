@@ -4,44 +4,24 @@ from typing import List
 
 class Solution:
     def countPartitions(self, arr, d):
-        
+        # code here
         n = len(arr)
-        totalSum = sum(arr)
-        if (totalSum - d) % 2 == 1:
+        t, rem = divmod((sum(arr) - d), 2)
+        if t < 0 or rem == 1:
             return 0
-        if totalSum - d < 0:
-            return 0
-            
-        target = (totalSum - d) // 2
+      
+        DP = [[None for i in range(t+1)] for j in range(n)]
+        for j in range(t+1):
+            DP[0][j] = int(arr[0] == j)
+        DP[0][0] += 1
         
-        DP = [[-1 for i in range(target+1)] for i in range(n)]
-        def func(index: int, target: int) -> int:
-            if DP[index][target] != -1:
-                return DP[index][target]
-            
-            if index == 0:
-                if arr[0] == 0 and target == 0:
-                    res = 2
-                    DP[index][target] = res
-                    return res
-                if target == 0 or arr[0] == target:
-                    res = 1
-                    DP[index][target] = res
-                    return res
-                res = 0
-                DP[index][target] = res
-                return res
-            
-            resNotTake = func(index-1, target)
-            newTarget = target - arr[index]
-            resTake = 0
-            if newTarget >= 0:
-                resTake = func(index-1, newTarget)
-            res = resTake + resNotTake
-            DP[index][target] = res
-            return res
+        for i in range(1, n):
+            for j in range(t+1):
+                rt = j - arr[i]
+                take = 0
+                if rt >= 0:
+                    take = DP[i-1][rt]
+                notTake = DP[i-1][j]
+                DP[i][j] = take + notTake
         
-        res = func(n-1, target)
-        return res
-        
-        
+        return DP[n-1][t]
