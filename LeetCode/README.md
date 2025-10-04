@@ -1,0 +1,737 @@
+A collection of LeetCode questions to ace the coding interview! - Created using [LeetArchive](https://github.com/anujlunawat/LeetArchive)
+
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0055-jump-game) |
+| [0062-unique-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0064-minimum-path-sum) |
+| [0072-edit-distance](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0115-distinct-subsequences) |
+| [0118-pascals-triangle](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0118-pascals-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0131-palindrome-partitioning) |
+| [0152-maximum-product-subarray](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0152-maximum-product-subarray) |
+| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0213-house-robber-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0312-burst-balloons) |
+| [0322-coin-change](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0322-coin-change) |
+| [0368-largest-divisible-subset](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0392-is-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0516-longest-palindromic-subsequence) |
+| [0518-coin-change-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0673-number-of-longest-increasing-subsequence) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [0875-longest-mountain-in-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0875-longest-mountain-in-array) |
+| [0943-sum-of-subarray-minimums](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0943-sum-of-subarray-minimums) |
+| [0967-minimum-falling-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0967-minimum-falling-path-sum) |
+| [1013-fibonacci-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1013-fibonacci-number) |
+| [1121-partition-array-for-maximum-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1121-partition-array-for-maximum-sum) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [1170-shortest-common-supersequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1170-shortest-common-supersequence) |
+| [1250-longest-common-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1250-longest-common-subsequence) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1669-minimum-cost-to-cut-a-stick) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0210-course-schedule-ii) |
+| [0547-number-of-provinces](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0744-network-delay-time) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [0820-find-eventual-safe-states](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0820-find-eventual-safe-states) |
+| [1120-flower-planting-with-no-adjacent](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1120-flower-planting-with-no-adjacent) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1442-number-of-operations-to-make-network-connected) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
+| [2439-longest-cycle-in-a-graph](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2439-longest-cycle-in-a-graph) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0210-course-schedule-ii) |
+| [0820-find-eventual-safe-states](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
+| [2439-longest-cycle-in-a-graph](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2439-longest-cycle-in-a-graph) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0744-network-delay-time) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2090-number-of-ways-to-arrive-at-destination) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0079-word-search) |
+| [0098-validate-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0101-symmetric-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0111-minimum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0210-course-schedule-ii) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0404-sum-of-left-leaves) |
+| [0463-island-perimeter](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0463-island-perimeter) |
+| [0547-number-of-provinces](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0547-number-of-provinces) |
+| [0662-maximum-width-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0744-network-delay-time) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [0820-find-eventual-safe-states](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0854-making-a-large-island) |
+| [1120-flower-planting-with-no-adjacent](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1120-flower-planting-with-no-adjacent) |
+| [1380-number-of-closed-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1380-number-of-closed-islands) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+| [2439-longest-cycle-in-a-graph](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2439-longest-cycle-in-a-graph) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2461-amount-of-time-for-binary-tree-to-be-infected) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0101-symmetric-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0102-binary-tree-level-order-traversal) |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0104-maximum-depth-of-binary-tree) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0111-minimum-depth-of-binary-tree) |
+| [0127-word-ladder](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0127-word-ladder) |
+| [0199-binary-tree-right-side-view](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0207-course-schedule) |
+| [0210-course-schedule-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0322-coin-change](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0322-coin-change) |
+| [0404-sum-of-left-leaves](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0404-sum-of-left-leaves) |
+| [0463-island-perimeter](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0542-01-matrix) |
+| [0547-number-of-provinces](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0547-number-of-provinces) |
+| [0662-maximum-width-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0744-network-delay-time) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [0820-find-eventual-safe-states](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0854-making-a-large-island) |
+| [1036-rotting-oranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1036-rotting-oranges) |
+| [1120-flower-planting-with-no-adjacent](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1120-flower-planting-with-no-adjacent) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1171-shortest-path-in-binary-matrix) |
+| [1380-number-of-closed-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1380-number-of-closed-islands) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+| [2439-longest-cycle-in-a-graph](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2439-longest-cycle-in-a-graph) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2461-amount-of-time-for-binary-tree-to-be-infected) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0295-find-median-from-data-stream) |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [0744-network-delay-time](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0744-network-delay-time) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0803-cheapest-flights-within-k-stops) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0013-roman-to-integer) |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0076-minimum-window-substring) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0127-word-ladder](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0127-word-ladder) |
+| [0141-linked-list-cycle](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0349-intersection-of-two-arrays) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0424-longest-repeating-character-replacement](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0424-longest-repeating-character-replacement) |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [0496-next-greater-element-i](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0966-binary-subarrays-with-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1034-subarrays-with-k-different-integers) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1460-number-of-substrings-containing-all-three-characters) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1890-sum-of-beauty-of-all-substrings) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2461-amount-of-time-for-binary-tree-to-be-infected) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0005-longest-palindromic-substring) |
+| [0008-string-to-integer-atoi](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0008-string-to-integer-atoi) |
+| [0013-roman-to-integer](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0014-longest-common-prefix) |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0020-valid-parentheses) |
+| [0038-count-and-say](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0044-wildcard-matching) |
+| [0058-length-of-last-word](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0058-length-of-last-word) |
+| [0072-edit-distance](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0079-word-search) |
+| [0115-distinct-subsequences](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0115-distinct-subsequences) |
+| [0125-valid-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0131-palindrome-partitioning) |
+| [0151-reverse-words-in-a-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0151-reverse-words-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0214-shortest-palindrome) |
+| [0242-valid-anagram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0282-expression-add-operators) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0344-reverse-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0392-is-subsequence) |
+| [0424-longest-repeating-character-replacement](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0424-longest-repeating-character-replacement) |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [0516-longest-palindromic-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0583-delete-operation-for-two-strings) |
+| [0686-repeated-string-match](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0686-repeated-string-match) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0812-rotate-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0812-rotate-string) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0957-minimum-add-to-make-parentheses-valid) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [1170-shortest-common-supersequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1170-shortest-common-supersequence) |
+| [1250-longest-common-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1250-longest-common-subsequence) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1460-number-of-substrings-containing-all-three-characters) |
+| [1508-longest-happy-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1508-longest-happy-prefix) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1890-sum-of-beauty-of-all-substrings) |
+| [3194-find-words-containing-character](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/3194-find-words-containing-character) |
+| [3379-score-of-a-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/3379-score-of-a-string) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0014-longest-common-prefix) |
+| [0018-4sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0018-4sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0027-remove-element) |
+| [0031-next-permutation](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0036-valid-sudoku](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0048-rotate-image) |
+| [0051-n-queens](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0056-merge-intervals) |
+| [0063-unique-paths-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0075-sort-colors) |
+| [0078-subsets](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0078-subsets) |
+| [0079-word-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0079-word-search) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0081-search-in-rotated-sorted-array-ii) |
+| [0084-largest-rectangle-in-histogram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0118-pascals-triangle](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0118-pascals-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0135-candy](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0135-candy) |
+| [0152-maximum-product-subarray](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0169-majority-element) |
+| [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0200-number-of-islands) |
+| [0213-house-robber-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0213-house-robber-ii) |
+| [0215-kth-largest-element-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0216-combination-sum-iii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0312-burst-balloons) |
+| [0322-coin-change](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0322-coin-change) |
+| [0349-intersection-of-two-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0349-intersection-of-two-arrays) |
+| [0368-largest-divisible-subset](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0416-partition-equal-subset-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0455-assign-cookies](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0455-assign-cookies) |
+| [0463-island-perimeter](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0463-island-perimeter) |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0496-next-greater-element-i) |
+| [0518-coin-change-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0518-coin-change-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0560-subarray-sum-equals-k) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0673-number-of-longest-increasing-subsequence) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0733-flood-fill](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0735-asteroid-collision) |
+| [0792-binary-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0792-binary-search) |
+| [0854-making-a-large-island](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0854-making-a-large-island) |
+| [0875-longest-mountain-in-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0875-longest-mountain-in-array) |
+| [0890-lemonade-change](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0890-lemonade-change) |
+| [0898-transpose-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0898-transpose-matrix) |
+| [0907-koko-eating-bananas](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0907-koko-eating-bananas) |
+| [0943-sum-of-subarray-minimums](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0943-sum-of-subarray-minimums) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+| [0966-binary-subarrays-with-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0966-binary-subarrays-with-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0967-minimum-falling-path-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1036-rotting-oranges) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1121-partition-array-for-maximum-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1121-partition-array-for-maximum-sum) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1171-shortest-path-in-binary-matrix) |
+| [1380-number-of-closed-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1380-number-of-closed-islands) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1669-minimum-cost-to-cut-a-stick) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1826-maximum-xor-with-an-element-from-array) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+| [2227-sum-of-subarray-ranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2227-sum-of-subarray-ranges) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2271-rearrange-array-elements-by-sign) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3194-find-words-containing-character](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/3194-find-words-containing-character) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0054-spiral-matrix) |
+| [0063-unique-paths-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0079-word-search) |
+| [0200-number-of-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0200-number-of-islands) |
+| [0240-search-a-2d-matrix-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0240-search-a-2d-matrix-ii) |
+| [0463-island-perimeter](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0542-01-matrix) |
+| [0733-flood-fill](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0854-making-a-large-island) |
+| [0898-transpose-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0898-transpose-matrix) |
+| [0967-minimum-falling-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0967-minimum-falling-path-sum) |
+| [1036-rotting-oranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1036-rotting-oranges) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1171-shortest-path-in-binary-matrix) |
+| [1380-number-of-closed-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1380-number-of-closed-islands) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0854-making-a-large-island](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0854-making-a-large-island) |
+| [1380-number-of-closed-islands](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1380-number-of-closed-islands) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0005-longest-palindromic-substring) |
+| [0018-4sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0018-4sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0027-remove-element) |
+| [0031-next-permutation](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0141-linked-list-cycle) |
+| [0151-reverse-words-in-a-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0151-reverse-words-in-a-string) |
+| [0160-intersection-of-two-linked-lists](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0295-find-median-from-data-stream) |
+| [0344-reverse-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0349-intersection-of-two-arrays) |
+| [0392-is-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0392-is-subsequence) |
+| [0455-assign-cookies](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0455-assign-cookies) |
+| [0875-longest-mountain-in-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0875-longest-mountain-in-array) |
+| [0908-middle-of-the-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0908-middle-of-the-linked-list) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2271-rearrange-array-elements-by-sign) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2917-count-pairs-whose-sum-is-less-than-target) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0004-median-of-two-sorted-arrays) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0081-search-in-rotated-sorted-array-ii) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0153-find-minimum-in-rotated-sorted-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0240-search-a-2d-matrix-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0300-longest-increasing-subsequence) |
+| [0349-intersection-of-two-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0540-single-element-in-a-sorted-array) |
+| [0792-binary-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0907-koko-eating-bananas) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1753-path-with-minimum-effort](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1753-path-with-minimum-effort) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2917-count-pairs-whose-sum-is-less-than-target) |
+## Sorting
+|  |
+| ------- |
+| [0018-4sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0018-4sum) |
+| [0056-merge-intervals](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0215-kth-largest-element-in-an-array) |
+| [0242-valid-anagram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0242-valid-anagram) |
+| [0295-find-median-from-data-stream](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0295-find-median-from-data-stream) |
+| [0349-intersection-of-two-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0349-intersection-of-two-arrays) |
+| [0368-largest-divisible-subset](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0368-largest-divisible-subset) |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [0455-assign-cookies](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0455-assign-cookies) |
+| [0721-accounts-merge](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0721-accounts-merge) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+| [1129-longest-string-chain](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1129-longest-string-chain) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1669-minimum-cost-to-cut-a-stick) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2917-count-pairs-whose-sum-is-less-than-target) |
+## Backtracking
+|  |
+| ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0051-n-queens) |
+| [0078-subsets](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0078-subsets) |
+| [0079-word-search](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0079-word-search) |
+| [0090-subsets-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0131-palindrome-partitioning) |
+| [0216-combination-sum-iii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0282-expression-add-operators) |
+| [0494-target-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0494-target-sum) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0029-divide-two-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0078-subsets) |
+| [0090-subsets-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0231-power-of-two) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1826-maximum-xor-with-an-element-from-array) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2323-minimum-bit-flips-to-convert-number) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0007-reverse-integer) |
+| [0013-roman-to-integer](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0029-divide-two-integers) |
+| [0048-rotate-image](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0048-rotate-image) |
+| [0050-powx-n](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0062-unique-paths) |
+| [0189-rotate-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0231-power-of-two) |
+| [0282-expression-add-operators](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0282-expression-add-operators) |
+| [0368-largest-divisible-subset](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0368-largest-divisible-subset) |
+| [1013-fibonacci-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1013-fibonacci-number) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0060-permutation-sequence) |
+| [0203-remove-linked-list-elements](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0231-power-of-two) |
+| [1013-fibonacci-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1013-fibonacci-number) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0062-unique-paths) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0055-jump-game) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0135-candy](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0135-candy) |
+| [0410-split-array-largest-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0410-split-array-largest-sum) |
+| [0455-assign-cookies](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0890-lemonade-change) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0957-minimum-add-to-make-parentheses-valid) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0673-number-of-longest-increasing-subsequence) |
+## Enumeration
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0875-longest-mountain-in-array) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0084-largest-rectangle-in-histogram) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0114-flatten-binary-tree-to-linked-list) |
+| [0144-binary-tree-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0144-binary-tree-preorder-traversal) |
+| [0496-next-greater-element-i](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0496-next-greater-element-i) |
+| [0735-asteroid-collision](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0735-asteroid-collision) |
+| [0937-online-stock-span](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0937-online-stock-span) |
+| [0943-sum-of-subarray-minimums](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0943-sum-of-subarray-minimums) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2227-sum-of-subarray-ranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2227-sum-of-subarray-ranges) |
+## Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0101-symmetric-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0102-binary-tree-level-order-traversal) |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0111-minimum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0199-binary-tree-right-side-view) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0404-sum-of-left-leaves) |
+| [0450-delete-node-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0450-delete-node-in-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0783-search-in-a-binary-search-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2461-amount-of-time-for-binary-tree-to-be-infected) |
+## Binary Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0099-recover-binary-search-tree) |
+| [0100-same-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0101-symmetric-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0102-binary-tree-level-order-traversal) |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0111-minimum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0199-binary-tree-right-side-view) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0404-sum-of-left-leaves](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0404-sum-of-left-leaves) |
+| [0450-delete-node-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0450-delete-node-in-a-bst) |
+| [0662-maximum-width-of-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0662-maximum-width-of-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0783-search-in-a-binary-search-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2461-amount-of-time-for-binary-tree-to-be-infected) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0169-majority-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0240-search-a-2d-matrix-ii) |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+## Design
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0297-serialize-and-deserialize-binary-tree) |
+| [0937-online-stock-span](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0937-online-stock-span) |
+## Linked List
+|  |
+| ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0019-remove-nth-node-from-end-of-list) |
+| [0021-merge-two-sorted-lists](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0025-reverse-nodes-in-k-group) |
+| [0061-rotate-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0061-rotate-list) |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0083-remove-duplicates-from-sorted-list) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0114-flatten-binary-tree-to-linked-list) |
+| [0141-linked-list-cycle](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0141-linked-list-cycle) |
+| [0160-intersection-of-two-linked-lists](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0160-intersection-of-two-linked-lists) |
+| [0203-remove-linked-list-elements](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0206-reverse-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0237-delete-node-in-a-linked-list) |
+| [0908-middle-of-the-linked-list](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0908-middle-of-the-linked-list) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0099-recover-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0230-kth-smallest-element-in-a-bst) |
+| [0450-delete-node-in-a-bst](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0450-delete-node-in-a-bst) |
+| [0783-search-in-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0783-search-in-a-binary-search-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0084-largest-rectangle-in-histogram) |
+| [0496-next-greater-element-i](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0496-next-greater-element-i) |
+| [0937-online-stock-span](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0937-online-stock-span) |
+| [0943-sum-of-subarray-minimums](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [2227-sum-of-subarray-ranges](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2227-sum-of-subarray-ranges) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0169-majority-element) |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [1034-subarrays-with-k-different-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1034-subarrays-with-k-different-integers) |
+| [1890-sum-of-beauty-of-all-substrings](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1890-sum-of-beauty-of-all-substrings) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0054-spiral-matrix) |
+| [0735-asteroid-collision](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0735-asteroid-collision) |
+| [0898-transpose-matrix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0898-transpose-matrix) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/2271-rearrange-array-elements-by-sign) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0295-find-median-from-data-stream) |
+| [0937-online-stock-span](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0937-online-stock-span) |
+## Prefix Sum
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0560-subarray-sum-equals-k) |
+| [0966-binary-subarrays-with-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0966-binary-subarrays-with-sum) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0215-kth-largest-element-in-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0493-reverse-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0076-minimum-window-substring) |
+| [0424-longest-repeating-character-replacement](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0424-longest-repeating-character-replacement) |
+| [0966-binary-subarrays-with-sum](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0966-binary-subarrays-with-sum) |
+| [1034-subarrays-with-k-different-integers](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1034-subarrays-with-k-different-integers) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1460-number-of-substrings-containing-all-three-characters) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1966-frequency-of-the-most-frequent-element) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0014-longest-common-prefix) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1826-maximum-xor-with-an-element-from-array) |
+## String Matching
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0214-shortest-palindrome) |
+| [0686-repeated-string-match](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0812-rotate-string) |
+| [1508-longest-happy-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1508-longest-happy-prefix) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0451-sort-characters-by-frequency) |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1508-longest-happy-prefix) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1508-longest-happy-prefix) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/1013-fibonacci-number) |
+## Radix Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/soumenkm/LeetCode/tree/main/LeetCode/0948-sort-an-array) |
+<!---LeetCode Topics End-->
